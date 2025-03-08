@@ -1,0 +1,75 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Asegúrate de que esté por encima de otros contenidos */
+}
+
+.navbar .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+}
+
+.logo {
+    color: #FFF;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    /* border-right: 4px solid #FFF; */
+    width: 17ch;
+    overflow: hidden;
+    /* animation: typing 3s steps(16), 1 normal both, blink 0.75s step-end infinite; */
+    animation: typing 3s steps(16), 1 normal both;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 16ch; } /* Ajusta al ancho máximo del texto */
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+.navbar-button {
+    width: 130px; /* Establece el ancho fijo */
+    height: 30px; /* Establece el alto fijo */
+    display: flex; /* Asegura que el contenido se centre */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    font-size: 14px; /* Ajusta el tamaño del texto para que se vea bien */
+}
+
+.navbar-icon {
+    transition: transform 0.3s ease, color 0.3s ease; /* Transición suave */
+    color: #ffffff; /* Color inicial del icono */
+}
+
+.navbar-icon:hover {
+    transform: scale(1.2);
+    color: #007bff;
+}
+
+.custom-dropdown {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro con transparencia */
+    border-radius: 0.25rem;
+    padding: 0.4rem;
+}
+
+.custom-dropdown .dropdown-item {
+    margin: 0.2rem 0;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Un efecto de hover suave */
+    color: white; /* Aseguramos que el texto sea visible */
+    border-radius: 0.25rem;
+}

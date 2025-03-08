@@ -1,0 +1,33 @@
+
+.about-section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: justify;
+    background-color: #fdfaf7; /* Color suave para la sección */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #785e3a; /* Color similar al de la tapa del libro */
+    text-align: center; /* Centra el título */
+    font-weight: bold;
+  }
+  
+  .about-paragraph {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #333; /* Color oscuro para buen contraste y legibilidad */
+  }
+  
+  /* Opcional: mejorar la tipografía y darle un aspecto más elegante */
+  .about-section p:first-letter {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #785e3a;
+  }
+  

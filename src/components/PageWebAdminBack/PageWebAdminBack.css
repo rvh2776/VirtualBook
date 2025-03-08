@@ -1,0 +1,110 @@
+.projects-section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #fdfaf7; /* Color suave para la sección */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+  }
+  
+  .projects-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #785e3a; /* Color similar al de la tapa del libro */
+    text-align: center; /* Centra el título */
+    font-weight: bold;
+  }
+  
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  /* .project-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  } */
+
+  .project-image {
+  width: 100%;          /* Ocupar todo el ancho */
+  height: 140px;        /* Fijar la altura a 200px (puedes ajustarlo según prefieras) */
+  object-fit: cover;    /* Recorta la imagen para ajustarla sin distorsionar */
+  object-position: top; /* Mantener la parte superior visible */
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+  
+  .project-content {
+    padding: 5px;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #785e3a; /* Color similar al de la tapa del libro */
+  }
+  
+  .project-description {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333; /* Color oscuro para buen contraste y legibilidad */
+  }
+  
+  .project-tech {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #555; /* Color para la lista de tecnologías */
+  }
+  
+  .project-tech strong {
+    color: #785e3a; /* Color para el título de las tecnologías */
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 20px; /* Añade espacio antes de los botones */
+  }
+  
+  .btn-primary {
+    background-color: #785e3a; /* Color del botón primario */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    
+  }
+  
+  .btn-primary:hover {
+    background-color: #6a4d3a; /* Color más oscuro al pasar el ratón sobre el botón */
+  }
+  
+  .btn-secondary {
+    background-color: #ddd; /* Color del botón secundario */
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #ccc; /* Color más oscuro al pasar el ratón sobre el botón */
+  }
+
+  .project-features {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333; /* Color oscuro para buen contraste y legibilidad */
+  }
